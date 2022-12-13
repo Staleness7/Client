@@ -5,7 +5,17 @@
 > 本项目乃阉割版,不分游戏玩法未公开,详情请看 [.gitignore](.gitignore)
 > 相关信息请查看主仓库下的介绍文档
 
-### 2. 项目结构
+### 2. 预览
+
+![login](images/login.png)
+
+![CheckID](images/CheckID.png)
+
+![home](images/home.png)
+
+![view](images/view.png)
+
+### 3. 项目结构
 
 ```conf
 .
@@ -83,7 +93,7 @@
 30 directories, 40 files
 ```
 
-### 3. 项目运行
+### 4. 项目运行
 
 - Cocos 2.4.8
 - Node 16 LTS
