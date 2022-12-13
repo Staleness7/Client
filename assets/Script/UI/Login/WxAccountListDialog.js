@@ -25,22 +25,36 @@ cc.Class({
     start () {
         this.curIndex = 0;
         this.maxIndex = 0;
-        this.accountInfoArr = [];
-        Global.DialogManager.addLoadingCircle(1);
-        cc.loader.load(Global.Constant.wxAccountConfigAddress, function (err, data) {
-            Global.DialogManager.removeLoadingCircle();
-            if (!!err){
-                Global.DialogManager.addPopDialog("加载账号信息失败");
-            } else{
-                try {
-                    this.accountInfoArr = Global.Utils.csvToArray(data) || [];
-                    this.updateList();
-                }catch (e){
-                    console.error(e);
-                    Global.DialogManager.addPopDialog("配置信息解析错误");
-                }
-            }
-        }.bind(this));
+        // this.accountInfoArr = [];
+        this.accountInfoArr = [
+            { nickname: 13711111111 },
+            { nickname: 18888888888 },
+            { nickname: 18888888889 },
+            { nickname: 18888888890 },
+            { nickname: 18888888891 },
+            { nickname: 18888888892 },
+            { nickname: 13722222222 },
+            { nickname: 13722222223 },
+            { nickname: 13722222224 },
+            { nickname: 13722222225 },
+            { nickname: 13722222226 },
+        ];
+        this.updateList();
+        // Global.DialogManager.addLoadingCircle(1);
+        // cc.loader.load(Global.Constant.wxAccountConfigAddress, function (err, data) {
+        //     Global.DialogManager.removeLoadingCircle();
+        //     if (!!err){
+        //         Global.DialogManager.addPopDialog("加载账号信息失败");
+        //     } else{
+        //         try {
+        //             this.accountInfoArr = Global.Utils.csvToArray(data) || [];
+        //             this.updateList();
+        //         }catch (e){
+        //             console.error(e);
+        //             Global.DialogManager.addPopDialog("配置信息解析错误");
+        //         }
+        //     }
+        // }.bind(this));
     },
 
     onBtnClick(event, parameter){
@@ -58,10 +72,29 @@ cc.Class({
     },
 
     selectUser(event, parameter){
-        Global.wxAccountInfo = this.accountInfoArr[parameter] || null;
-        Global.Utils.invokeCallback(this.dialogParameters.cb);
+        // Global.wxAccountInfo = this.accountInfoArr[parameter] || null;
+        // Global.Utils.invokeCallback(this.dialogParameters.cb);
 
         Global.DialogManager.destroyDialog(this);
+        let account = this.accountInfoArr[parameter].nickname;
+        let pwd = 888888;
+
+        let accountData = {
+            account: account,
+            password: pwd,
+            loginPlatform: Global.Enum.loginPlatform.MOBILE_PHONE
+        };
+        this.node.active = false
+        Global.DialogManager.addLoadingCircle()
+        Global.LoginHelper.login(accountData, null, function () {
+            cc.sys.localStorage.setItem("accountPhone", account);
+            cc.sys.localStorage.setItem("accountPhonePwd", pwd);
+            cc.sys.localStorage.setItem("accountDataArr", "");
+            Global.DialogManager.removeLoadingCircle();
+            Global.DialogManager.createDialog("UI/Hall/HallDialog", { lastDialog: "login" }, function () {
+                Global.DialogManager.destroyAllDialog(["UI/Hall/HallDialog"]);
+            })
+        });
     },
 
     updateList(){
@@ -75,7 +108,7 @@ cc.Class({
             let accountInfo = this.accountInfoArr[i];
             let node = cc.instantiate(this.userInfoItem);
             node.active = true;
-            Global.CCHelper.updateSpriteFrame(accountInfo.avatar, node.getChildByName("avatar").getComponent(cc.Sprite));
+            // Global.CCHelper.updateSpriteFrame(accountInfo.avatar, node.getChildByName("avatar").getComponent(cc.Sprite));
             node.getChildByName("nickname").getComponent(cc.Label).string = accountInfo.nickname;
             node.parent = this.userListRoot;
 

@@ -1,3 +1,6 @@
+/**
+ * @todo 自动登录，如果存在 TOKEN / 手机号 则自动登录
+ */
 cc.Class({
     extends: cc.Component,
 
@@ -22,6 +25,8 @@ cc.Class({
             serverIndex = parseInt(serverIndex || "0");
             this.updateServer(serverIndex);
         }
+
+        this.lowFrameToggle.isChecked = (Global.Constant.debug);
 
         Global.AudioManager.stopBgMusic();
 
@@ -68,7 +73,12 @@ cc.Class({
                 break;
         }
     },
-    
+    /**
+     * 用户点击操作
+     * @param event
+     * @param param
+     * @todo 请问 用户 在点击 lowFrame(低性能消耗之后点击微信账户登录，是否有效呢？)
+     */
     onBtnClk: function (event, param) {
         Global.AudioManager.playCommonSoundClickButton();
         switch (param) {
