@@ -1,0 +1,16 @@
+info face="Arial" size=32 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=1 padding=1,1,1,1 spacing=0,0 outline=0
+common lineHeight=32 base=26 scaleW=1024 scaleH=128 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="DDZGatherOpenRedPaper2_0.png"
+chars count=12
+char id=46   x=656   y=0     width=30    height=75    xoffset=-1    yoffset=-1    xadvance=28    page=0  chnl=15
+char id=48   x=0     y=0     width=70    height=75    xoffset=-1    yoffset=-1    xadvance=68    page=0  chnl=15
+char id=49   x=570   y=0     width=44    height=75    xoffset=-1    yoffset=-1    xadvance=42    page=0  chnl=15
+char id=50   x=264   y=0     width=63    height=75    xoffset=-1    yoffset=-1    xadvance=61    page=0  chnl=15
+char id=51   x=451   y=0     width=60    height=75    xoffset=-1    yoffset=-1    xadvance=58    page=0  chnl=15
+char id=52   x=70    y=0     width=65    height=75    xoffset=-1    yoffset=-1    xadvance=63    page=0  chnl=15
+char id=53   x=327   y=0     width=62    height=75    xoffset=-1    yoffset=-1    xadvance=60    page=0  chnl=15
+char id=54   x=389   y=0     width=62    height=75    xoffset=-1    yoffset=-1    xadvance=60    page=0  chnl=15
+char id=55   x=511   y=0     width=59    height=75    xoffset=-1    yoffset=-1    xadvance=57    page=0  chnl=15
+char id=56   x=200   y=0     width=64    height=75    xoffset=-1    yoffset=-1    xadvance=62    page=0  chnl=15
+char id=57   x=135   y=0     width=65    height=75    xoffset=-1    yoffset=-1    xadvance=63    page=0  chnl=15
+char id=121  x=614   y=0     width=42    height=75    xoffset=-1    yoffset=-1    xadvance=40    page=0  chnl=15

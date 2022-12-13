@@ -1,0 +1,20 @@
+{
+    "name": "bitmapfont",
+    "version": "0.0.2",
+    "description": "Generate bitmapfont",
+    "scene-script": "bitmap.js",
+    "author": "syent",
+    "main": "main.js",
+    "main-menu": {
+        "i18n:MAIN_MENU.package.title/位图字体工具/打开": {
+            "message": "bitmapfont:open"
+        }
+    },
+    "panel": {
+        "main": "panel/index.js",
+        "type": "dockable",
+        "title": "bitmapfont",
+        "width": 400,
+        "height": 600
+    }
+}

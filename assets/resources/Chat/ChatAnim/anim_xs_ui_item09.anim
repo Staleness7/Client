@@ -1,0 +1,87 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "anim_xs_ui_item09",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.5,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "New Sprite": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "61123faf-e3e4-4bf8-abd8-e298ef561517"
+                }
+              },
+              {
+                "frame": 0.16666666666666666,
+                "value": {
+                  "__uuid__": "e629f220-80ae-4c8c-a11d-4e99790ff585"
+                }
+              },
+              {
+                "frame": 0.3333333333333333,
+                "value": {
+                  "__uuid__": "9bc08c31-25af-413c-abf9-b8b5fa22c592"
+                }
+              },
+              {
+                "frame": 0.5,
+                "value": {
+                  "__uuid__": "dd98c2c3-f68b-4bdc-9ee8-21a8d959f945"
+                }
+              },
+              {
+                "frame": 0.6666666666666666,
+                "value": {
+                  "__uuid__": "563519da-be6c-4109-beec-a4f0943a1e2d"
+                }
+              },
+              {
+                "frame": 0.8333333333333334,
+                "value": {
+                  "__uuid__": "41621b84-8ad0-47eb-9ed9-816ee142a95d"
+                }
+              },
+              {
+                "frame": 1,
+                "value": {
+                  "__uuid__": "e181bf9b-ecd9-4db0-aba6-a98060d07a24"
+                }
+              },
+              {
+                "frame": 1.1666666666666667,
+                "value": {
+                  "__uuid__": "e6d87d5f-4038-43fc-bdd9-9ec1dcf01734"
+                }
+              },
+              {
+                "frame": 1.3333333333333333,
+                "value": {
+                  "__uuid__": "2537bf74-16eb-4354-90e7-e03e18a23ccb"
+                }
+              }
+            ],
+            "enabled": [
+              {
+                "frame": 0,
+                "value": true
+              },
+              {
+                "frame": 1.5,
+                "value": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "events": []
+}

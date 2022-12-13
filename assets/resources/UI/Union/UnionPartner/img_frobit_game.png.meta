@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "64b8ce15-2c94-45d5-8233-8b7452ca62ba",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 50,
+  "height": 50,
+  "platformSettings": {},
+  "subMetas": {
+    "img_frobit_game": {
+      "ver": "1.0.6",
+      "uuid": "85c2f4f0-a4b8-46e2-8ffd-622c15913143",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "64b8ce15-2c94-45d5-8233-8b7452ca62ba",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -0.5,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 48,
+      "height": 49,
+      "rawWidth": 50,
+      "rawHeight": 50,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

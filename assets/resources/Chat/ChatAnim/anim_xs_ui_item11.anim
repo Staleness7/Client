@@ -1,0 +1,397 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "anim_xs_ui_item11",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.67,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "New Sprite": {
+        "comps": {
+          "cc.Sprite": {
+            "enabled": [
+              {
+                "frame": 0,
+                "value": true
+              }
+            ],
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+                }
+              },
+              {
+                "frame": 0.16666666666666666,
+                "value": {
+                  "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "dao01": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -53,
+                -117
+              ]
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": [
+                -70,
+                -138
+              ]
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                -53,
+                -121
+              ]
+            },
+            {
+              "frame": 0.5333333333333333,
+              "value": [
+                -18,
+                -27
+              ]
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": [
+                -18,
+                -27
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                -18,
+                -27
+              ]
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": [
+                -38.5,
+                -69
+              ]
+            },
+            {
+              "frame": 1.2,
+              "value": [
+                -21.9,
+                -27.9
+              ]
+            },
+            {
+              "frame": 1.3,
+              "value": [
+                -19.5,
+                -26.2
+              ]
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": [
+                -39.5,
+                -69.9
+              ]
+            },
+            {
+              "frame": 1.4333333333333333,
+              "value": [
+                -39.5,
+                -69.9
+              ]
+            },
+            {
+              "frame": 1.4666666666666666,
+              "value": [
+                -18,
+                -27.9
+              ]
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0.5,
+              "value": 0
+            },
+            {
+              "frame": 0.5666666666666667,
+              "value": 20
+            },
+            {
+              "frame": 0.6333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 0.7,
+              "value": -20
+            },
+            {
+              "frame": 0.7666666666666667,
+              "value": 0
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "enabled": [
+              {
+                "frame": 0,
+                "value": true
+              },
+              {
+                "frame": 0.16666666666666666,
+                "value": true
+              },
+              {
+                "frame": 0.5,
+                "value": false
+              },
+              {
+                "frame": 0.8333333333333334,
+                "value": false
+              },
+              {
+                "frame": 1,
+                "value": false
+              },
+              {
+                "frame": 1.0333333333333334,
+                "value": true
+              },
+              {
+                "frame": 1.2,
+                "value": false
+              },
+              {
+                "frame": 1.3,
+                "value": false
+              },
+              {
+                "frame": 1.3333333333333333,
+                "value": true
+              },
+              {
+                "frame": 1.4666666666666666,
+                "value": false
+              }
+            ]
+          }
+        }
+      },
+      "dao01/dao02": {
+        "comps": {
+          "cc.Sprite": {
+            "enabled": [
+              {
+                "frame": 0,
+                "value": false
+              },
+              {
+                "frame": 0.5,
+                "value": true
+              },
+              {
+                "frame": 0.8333333333333334,
+                "value": true
+              },
+              {
+                "frame": 1,
+                "value": true
+              },
+              {
+                "frame": 1.0333333333333334,
+                "value": false
+              },
+              {
+                "frame": 1.2,
+                "value": true
+              },
+              {
+                "frame": 1.3,
+                "value": true
+              },
+              {
+                "frame": 1.3333333333333333,
+                "value": false
+              },
+              {
+                "frame": 1.4666666666666666,
+                "value": true
+              },
+              {
+                "frame": 1.6666666666666667,
+                "value": false
+              }
+            ]
+          }
+        }
+      },
+      "blood01": {
+        "comps": {
+          "cc.Sprite": {
+            "enabled": [
+              {
+                "frame": 0.5,
+                "value": true
+              },
+              {
+                "frame": 0.6333333333333333,
+                "value": false
+              }
+            ],
+            "spriteFrame": [
+              {
+                "frame": 0.5,
+                "value": {
+                  "__uuid__": "d3806105-716d-4041-a2a5-311f0d26fd6c"
+                }
+              },
+              {
+                "frame": 0.5333333333333333,
+                "value": {
+                  "__uuid__": "b90da8fb-a59d-49d6-9cc2-dd4b0ef9b9ac"
+                }
+              },
+              {
+                "frame": 0.5666666666666667,
+                "value": {
+                  "__uuid__": "fa0e74d2-9739-4cdd-8146-85e61a6df948"
+                }
+              },
+              {
+                "frame": 0.6,
+                "value": {
+                  "__uuid__": "338cb56d-4a4f-4fdc-beb0-597e623ad30a"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "blood02": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [],
+            "enabled": []
+          }
+        }
+      },
+      "blood03": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [],
+            "enabled": []
+          }
+        }
+      },
+      "blood2": {
+        "comps": {
+          "cc.Sprite": {
+            "enabled": [
+              {
+                "frame": 0,
+                "value": false
+              },
+              {
+                "frame": 1.2,
+                "value": true
+              },
+              {
+                "frame": 1.3333333333333333,
+                "value": false
+              }
+            ],
+            "spriteFrame": [
+              {
+                "frame": 1.2,
+                "value": {
+                  "__uuid__": "d3806105-716d-4041-a2a5-311f0d26fd6c"
+                }
+              },
+              {
+                "frame": 1.2333333333333334,
+                "value": {
+                  "__uuid__": "b90da8fb-a59d-49d6-9cc2-dd4b0ef9b9ac"
+                }
+              },
+              {
+                "frame": 1.2666666666666666,
+                "value": {
+                  "__uuid__": "fa0e74d2-9739-4cdd-8146-85e61a6df948"
+                }
+              },
+              {
+                "frame": 1.3,
+                "value": {
+                  "__uuid__": "338cb56d-4a4f-4fdc-beb0-597e623ad30a"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "blood3": {
+        "comps": {
+          "cc.Sprite": {
+            "enabled": [
+              {
+                "frame": 0,
+                "value": false
+              },
+              {
+                "frame": 1.5,
+                "value": true
+              },
+              {
+                "frame": 1.6333333333333333,
+                "value": false
+              }
+            ],
+            "spriteFrame": [
+              {
+                "frame": 1.5,
+                "value": {
+                  "__uuid__": "d3806105-716d-4041-a2a5-311f0d26fd6c"
+                }
+              },
+              {
+                "frame": 1.5333333333333334,
+                "value": {
+                  "__uuid__": "b90da8fb-a59d-49d6-9cc2-dd4b0ef9b9ac"
+                }
+              },
+              {
+                "frame": 1.5666666666666667,
+                "value": {
+                  "__uuid__": "fa0e74d2-9739-4cdd-8146-85e61a6df948"
+                }
+              },
+              {
+                "frame": 1.6,
+                "value": {
+                  "__uuid__": "338cb56d-4a4f-4fdc-beb0-597e623ad30a"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "events": []
+}

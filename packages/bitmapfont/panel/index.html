@@ -1,0 +1,26 @@
+<div>
+    <table>
+        <tr>
+            <td>
+                画布宽高:
+                <input type="number" v-model="canvasWidth" @change="updateCanvas" style="width: 60px;" /> ×
+                <input type="number" v-model="canvasHeight" @change="updateCanvas" style="width: 60px;" />
+            </td>
+        </tr>
+    </table>
+    <table id="imagerList" ref="imageList" @dragenter="dragEnter" @dragover="dragOver" @drop="onDrop">
+        <span class="mini">请将位图字体图片拖拽到方框内</span>
+        <td colspan="6" style="border: dashed 1px #585858; border-radius:10px;">
+            <canvas id="fontCanvas" ref="fontCanvas" :width="canvasWidth" :height="canvasHeight"></canvas>
+        </td>
+        <td>
+            <div class="overflow">
+                <span v-for="( index,item) in imageList" :key="index">
+                            <img :src="item.img" />
+                            <input v-model="item.char" style="width: 30px;" />
+                        </span>
+            </div>
+        </td>
+    </table>
+    <button @click="save">保存</button>
+</div>

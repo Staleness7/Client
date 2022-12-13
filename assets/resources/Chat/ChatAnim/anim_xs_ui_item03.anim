@@ -1,0 +1,203 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "anim_xs_ui_item03",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.7666666666666666,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "New Sprite": {
+        "comps": {
+          "cc.Sprite": {
+            "enabled": [],
+            "spriteFrame": []
+          }
+        }
+      },
+      "xihongshi01": {
+        "comps": {
+          "cc.Sprite": {
+            "enabled": [
+              {
+                "frame": 0,
+                "value": true
+              },
+              {
+                "frame": 0.3333333333333333,
+                "value": true
+              },
+              {
+                "frame": 0.43333333333333335,
+                "value": true
+              },
+              {
+                "frame": 0.9,
+                "value": true
+              },
+              {
+                "frame": 1.7666666666666666,
+                "value": false
+              }
+            ]
+          }
+        },
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 1.5
+            },
+            {
+              "frame": 0.43333333333333335,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 1.5
+            },
+            {
+              "frame": 0.43333333333333335,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "polie02": {
+        "comps": {
+          "cc.Sprite": {
+            "enabled": [
+              {
+                "frame": 0,
+                "value": false
+              },
+              {
+                "frame": 0.43333333333333335,
+                "value": true
+              },
+              {
+                "frame": 0.9,
+                "value": true
+              },
+              {
+                "frame": 1.7666666666666666,
+                "value": false
+              }
+            ]
+          }
+        }
+      },
+      "bolie01": {
+        "comps": {
+          "cc.Sprite": {
+            "enabled": [
+              {
+                "frame": 0,
+                "value": false
+              },
+              {
+                "frame": 0.43333333333333335,
+                "value": true
+              },
+              {
+                "frame": 0.9,
+                "value": true
+              },
+              {
+                "frame": 1.7666666666666666,
+                "value": false
+              }
+            ]
+          }
+        },
+        "props": {
+          "position": [
+            {
+              "frame": 0.43333333333333335,
+              "value": [
+                0,
+                0
+              ]
+            },
+            {
+              "frame": 0.9,
+              "value": [
+                0,
+                -75
+              ]
+            }
+          ]
+        }
+      },
+      "yan01": {
+        "comps": {
+          "cc.Sprite": {
+            "enabled": [
+              {
+                "frame": 0,
+                "value": false
+              },
+              {
+                "frame": 0.43333333333333335,
+                "value": false
+              },
+              {
+                "frame": 0.9,
+                "value": true
+              },
+              {
+                "frame": 1.5666666666666667,
+                "value": false
+              },
+              {
+                "frame": 1.6333333333333333,
+                "value": true
+              },
+              {
+                "frame": 1.7666666666666666,
+                "value": false
+              }
+            ]
+          }
+        }
+      },
+      "yan02": {
+        "comps": {
+          "cc.Sprite": {
+            "enabled": [
+              {
+                "frame": 0,
+                "value": false
+              },
+              {
+                "frame": 0.43333333333333335,
+                "value": false
+              },
+              {
+                "frame": 0.9,
+                "value": true
+              },
+              {
+                "frame": 1.5666666666666667,
+                "value": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "events": []
+}

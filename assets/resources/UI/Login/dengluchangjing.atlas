@@ -1,0 +1,174 @@
+
+dengluchangjing.png
+size: 636,636
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+caidai01
+  rotate: false
+  xy: 457, 512
+  size: 170, 122
+  orig: 170, 122
+  offset: 0, 0
+  index: -1
+caidai03
+  rotate: false
+  xy: 300, 520
+  size: 151, 114
+  orig: 151, 114
+  offset: 0, 0
+  index: -1
+caidai04
+  rotate: true
+  xy: 240, 2
+  size: 75, 39
+  orig: 75, 39
+  offset: 0, 0
+  index: -1
+caidai05
+  rotate: true
+  xy: 415, 358
+  size: 62, 35
+  orig: 62, 35
+  offset: 0, 0
+  index: -1
+caidai06
+  rotate: false
+  xy: 327, 8
+  size: 128, 69
+  orig: 128, 69
+  offset: 0, 0
+  index: -1
+caidai07
+  rotate: true
+  xy: 610, 248
+  size: 45, 22
+  orig: 45, 22
+  offset: 0, 0
+  index: -1
+caidai08
+  rotate: false
+  xy: 281, 4
+  size: 44, 73
+  orig: 44, 73
+  offset: 0, 0
+  index: -1
+caidai09
+  rotate: true
+  xy: 94, 9
+  size: 53, 51
+  orig: 53, 51
+  offset: 0, 0
+  index: -1
+caiqi_01
+  rotate: false
+  xy: 2, 320
+  size: 296, 314
+  orig: 296, 314
+  offset: 0, 0
+  index: -1
+caiqi_02
+  rotate: false
+  xy: 385, 87
+  size: 118, 126
+  orig: 118, 126
+  offset: 0, 0
+  index: -1
+pai01
+  rotate: true
+  xy: 240, 79
+  size: 239, 143
+  orig: 239, 143
+  offset: 0, 0
+  index: -1
+pai02
+  rotate: true
+  xy: 2, 64
+  size: 254, 236
+  orig: 254, 236
+  offset: 0, 0
+  index: -1
+pai03
+  rotate: false
+  xy: 300, 422
+  size: 151, 96
+  orig: 151, 96
+  offset: 0, 0
+  index: -1
+pai04
+  rotate: false
+  xy: 453, 445
+  size: 179, 65
+  orig: 179, 65
+  offset: 0, 0
+  index: -1
+pai05
+  rotate: false
+  xy: 505, 179
+  size: 125, 34
+  orig: 125, 34
+  offset: 0, 0
+  index: -1
+pai06
+  rotate: true
+  xy: 505, 31
+  size: 146, 109
+  orig: 146, 109
+  offset: 0, 0
+  index: -1
+pai07
+  rotate: false
+  xy: 457, 215
+  size: 151, 78
+  orig: 151, 78
+  offset: 0, 0
+  index: -1
+pai08
+  rotate: true
+  xy: 300, 321
+  size: 99, 45
+  orig: 99, 45
+  offset: 0, 0
+  index: -1
+pai09
+  rotate: true
+  xy: 347, 327
+  size: 93, 66
+  orig: 93, 66
+  offset: 0, 0
+  index: -1
+pai10
+  rotate: true
+  xy: 147, 14
+  size: 48, 91
+  orig: 48, 91
+  offset: 0, 0
+  index: -1
+pai11
+  rotate: false
+  xy: 457, 7
+  size: 46, 78
+  orig: 46, 78
+  offset: 0, 0
+  index: -1
+pai12
+  rotate: true
+  xy: 385, 278
+  size: 47, 66
+  orig: 47, 66
+  offset: 0, 0
+  index: -1
+pai13
+  rotate: false
+  xy: 2, 2
+  size: 90, 60
+  orig: 90, 60
+  offset: 0, 0
+  index: -1
+xingguang_1
+  rotate: false
+  xy: 457, 295
+  size: 160, 148
+  orig: 160, 148
+  offset: 0, 0
+  index: -1

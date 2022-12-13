@@ -1,0 +1,60 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "feiji",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.3333333333333333,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "1q": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": -1000,
+              "curve": [
+                0.17,
+                1.06,
+                0.9,
+                0.06
+              ]
+            },
+            {
+              "frame": 1,
+              "value": 1000
+            }
+          ]
+        }
+      },
+      "1w": {
+        "props": {
+          "x": [
+            {
+              "frame": 0.6666666666666666,
+              "value": -314,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1,
+              "value": 0
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 1,
+              "value": 255
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}
